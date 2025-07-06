@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Classifier</title>
+</head>
+<body>
+    <h2>Enter a comment:</h2>
+    <textarea id="text" rows="4" cols="50" placeholder="Type your comment here..."></textarea><br>
+    <button onclick="classify()">Classify</button>
+    <p><strong>Prediction:</strong> <span id="result"></span></p>
+
+    <script>
+        async function classify() {
+            const text = document.getElementById("text").value;
+
+            const response = await fetch("http://127.0.0.1:5000/predict", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ text: text })
+            });
+
+            const data = await response.json();
+            document.getElementById("result").innerText = data.label || data.error;
+        }
+    </script>
+</body>
+</html>
