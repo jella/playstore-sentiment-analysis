@@ -1,4 +1,4 @@
-# Aplicativo de Classificação de Sentimentos 💬🔍
+# Aplicativo de Classificação de Sentimentos 
 
 Esta é uma aplicação full stack que utiliza um modelo de machine learning treinado para classificar o sentimento (positivo ou negativo) de um texto inserido pelo usuário.
 
