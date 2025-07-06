@@ -2,6 +2,10 @@
 
 Esta é uma aplicação full stack que utiliza um modelo de machine learning treinado para classificar o sentimento (positivo ou negativo) de um texto inserido pelo usuário.
 
+# Video de Aptresentação
+
+Link: [![Assista no YouTube]](https://youtu.be/gMJZbY1z7Qo)
+
 ## Visão Geral
 
 O projeto consiste na construção de um modelo de machine learning utilizando algoritmos clássicos (Naive Bayes, LinearSVC, KNN, Árvore de Decisão) para realizar a classificação de sentimentos. O modelo é treinado com vetorização TF-IDF e otimizado usando GridSearchCV com validação cruzada. O pipeline com melhor desempenho (vetorizador + modelo) é exportado utilizando `joblib`.
