@@ -4,7 +4,7 @@ Esta é uma aplicação full stack que utiliza um modelo de machine learning tre
 
 # Video de Aptresentação
 
-Link: [![Assista no YouTube]](https://youtu.be/gMJZbY1z7Qo)
+[Linkk do vídeo da apresentação no YouTube](https://youtu.be/gMJZbY1z7Qo)
 
 ## Visão Geral
 
